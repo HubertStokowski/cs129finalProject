@@ -5,7 +5,7 @@ Main fitting code is located here:<br />
 ./mainFittingCode/FitAllPowers.m<br />
 Running it will load 38 different optical transimission and SHG data and apply the nonlinear regression model to the data to learn parameters. Output data plots during my run were automatically saved in the following folder:<br />
 ./mainFittingCode/FitLineshapes20210313T191602<br />
-Data was exported here:<br />
+The code creates a separate folder for each run (dated). Data can be exported here:<br />
 ./mainFittingCode/FitLineshapes20210313T191602/AllData2<br />
 <br /><br />
 
@@ -17,7 +17,5 @@ Script for final figure generation:<br />
 ./nonlinearRegressionTests/getProjectData.m<br />
 Normalized RMSE calculation:<br />
 ./nonlinearRegressionTests/calculateNRMSEscirpt.m<br />
-Results exported to:<br />
+Results is exported to:<br />
 ./nonlinearRegressionTests/final_plots<br />
-<br /><br />
-./exampleFits contains example nonlinear fits to the experimental data
